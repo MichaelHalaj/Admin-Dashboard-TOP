@@ -52,7 +52,8 @@ h1{
 }
 .content{
     background-color: rgb(241, 241, 241);
-    grid-column: 2
+    display: grid;
+    grid-template-columns: 4fr 1fr;
 }
 
 .projects{
@@ -79,4 +80,8 @@ h1{
 }
 .description{
     margin: 16px;
+}
+.announcements,
+.trending{
+    grid-column: 3;
 }
