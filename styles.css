@@ -41,17 +41,31 @@ h3{
     justify-content: center;
 }
 .header{
-    background-color: rgb(255, 255, 255);
-    grid-column: 2;
+    grid-column: 1;
+    grid-row: 2;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.welcome{
+    margin: 16px;
+}
+.search{
+    grid-column: 1;
     grid-row: 1;
 }
 .nav{
     background-color: rgb(255, 255, 255);
     display: grid;
-    grid-template-columns: 0.5fr 2fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
     align-items: center;
     box-shadow: 0px 5px 5px rgba(170, 170, 170, 0.4);
     position: relative;
+}
+.top-right{
+    grid-row: 1;
+    grid-column: 2;
 }
 .content{
     background-color: rgb(241, 241, 241);
@@ -129,3 +143,4 @@ h4{
 h3.right-content{
     margin-left: 0;
 }
+
