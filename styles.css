@@ -9,6 +9,9 @@ body, html{
 h1{
     margin: 0;
 }
+h3{
+    margin: 16px;
+}
 :link{
     text-decoration: none;
 }
@@ -59,7 +62,7 @@ h1{
 
 .projects{
     display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 16px;
     margin: 16px;
@@ -82,7 +85,7 @@ h1{
 .description{
     margin: 16px;
 }
-.announcements,
-.trending{
-    grid-column: 2s;
+.right-content{
+    display: grid;
+    grid-template-columns: 1fr;
 }
