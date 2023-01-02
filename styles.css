@@ -43,9 +43,16 @@ h3{
 .header{
     grid-column: 1;
     grid-row: 2;
-    display: grid;
-    justify-items: center;
+    display: flex;
+    justify-items: left;
     align-items: center;
+}
+.profile-pic{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border: 2px solid grey;
 }
 .welcome{
     margin: 16px;
