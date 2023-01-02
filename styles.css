@@ -82,8 +82,12 @@ h3{
     background-color: goldenrod;
     border-radius: 12px 0px 0px 12px;
 }
+h3{
+    color: black;
+}
 .description{
     margin: 16px;
+    color: gray;
 }
 .right-content{
     display: grid;
@@ -91,15 +95,14 @@ h3{
 }
 .announcements .card{
     display: grid;
-    grid-template-columns: 200px;
-    grid-template-rows: 200px;
+    grid-template-columns: 1fr;
 
 }
 .topic .description{
-    width: 200px;
-    white-space: nowrap;
     overflow: hidden;
-    display: inline-block;
-    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4; 
+    white-space: normal;   
     margin: 0;
 }
