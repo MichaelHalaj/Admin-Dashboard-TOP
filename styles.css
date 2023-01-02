@@ -62,7 +62,7 @@ h3{
 
 .projects{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-template-rows: repeat(3, 1fr);
     gap: 16px;
     margin: 16px;
@@ -88,4 +88,18 @@ h3{
 .right-content{
     display: grid;
     grid-template-columns: 1fr;
+}
+.announcements .card{
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 200px;
+
+}
+.topic .description{
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+    margin: 0;
 }
