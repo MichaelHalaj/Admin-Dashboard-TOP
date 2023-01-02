@@ -5,6 +5,10 @@ body, html{
     height: 100%;
     margin: 0;
 }
+
+h1{
+    margin: 0;
+}
 :link{
     text-decoration: none;
 }
@@ -40,6 +44,9 @@ body, html{
 }
 .nav{
     background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr;
+    align-items: center;
 }
 .content{
     background-color: azure;
