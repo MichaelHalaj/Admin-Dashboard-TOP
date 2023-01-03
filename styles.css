@@ -113,9 +113,9 @@ input[type="text"]:focus-visible{
 
 .projects{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
     grid-template-rows: repeat(3, 1fr);
-    gap: 16px;
+    gap: 24px;
     margin: 16px;
 }
 .content h3{
@@ -129,7 +129,7 @@ input[type="text"]:focus-visible{
     background-color: white;
 }
 .projects .card{
-    height: 250px;
+    height: 200px;
 }
 .card .margin{
     height: 100%;
