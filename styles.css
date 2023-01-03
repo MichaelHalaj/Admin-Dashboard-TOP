@@ -50,10 +50,12 @@ h3{
 }
 input[type="text"]{
     width: 75%;
-    height: 25px;
+    height: 40px;
     border: none;
-    border-radius: 8px;
+    border-radius: 25px;
+    padding-left: 16px;
     background-color: rgb(238, 238, 238);
+    font-size: 1.2em;
 }
 input[type="text"]:focus-visible{
     outline: 1px ridge rgba(97, 97, 97, 0.6);
@@ -90,6 +92,7 @@ input[type="text"]:focus-visible{
 }
 .nav>div:nth-child(odd){
     margin-left: 100px;
+    align-items: center;
 }
 .top-right{
     grid-row: 1;
@@ -102,6 +105,18 @@ input[type="text"]:focus-visible{
 .top-right .profile-pic{
     min-height: 50px;
     min-width: 50px;
+}
+.post-buttons{
+    display: flex;
+    gap: 24px;
+}
+.post-buttons button{
+    background-color: #facc15;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.3em;
+    padding: 12px 20px;
+    color: white;
 }
 .content{
     background-color: rgb(241, 241, 241);
