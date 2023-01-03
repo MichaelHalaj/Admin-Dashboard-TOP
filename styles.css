@@ -51,11 +51,9 @@ h3{
 a:visited{
     color:black;
 }
-a:hover{
+.links>div:hover{
     color: white;
-}
-a:active{
-    color: grey;
+    background-color: rgba(215,215, 215, 0.3);
 }
 .header{
     grid-column: 1;
@@ -296,4 +294,28 @@ h3.right-content{
 }
 .home{
     background-image: url("logos/home-outline.svg");
+}
+.profile{
+    background-image: url("logos/account-circle-outline.svg");
+}
+.messages{
+    background-image: url("logos/message-settings-outline.svg");
+}
+.history{
+    background-image: url("logos/clock-outline.svg");
+}
+.tasks{
+ background-image: url("logos/note-multiple-outline.svg");
+}
+.communities{
+    background-image: url("logos/account-group-outline.svg");
+}
+.settings{
+
+}
+.support{
+
+}
+.privacy{
+
 }
