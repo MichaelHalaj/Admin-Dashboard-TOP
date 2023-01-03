@@ -80,8 +80,12 @@ input[type="text"]:focus-visible{
     border-radius: 50%;
     min-height: 80px;
     min-width: 80px;
-    background-color: white;
+    background-size: 80px;
+    background-image: url("logos/shana-van-beach.jpg");
     border: 2px solid grey;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 .welcome{
     margin: 16px;
@@ -120,6 +124,7 @@ input[type="text"]:focus-visible{
 .top-right .profile-pic{
     min-height: 50px;
     min-width: 50px;
+    background-size: 50px;
 }
 .post-buttons{
     display: flex;
@@ -240,6 +245,8 @@ h3.right-content{
     min-height: 50px;
     max-height: 50px;
     max-width: 50px;
+    background-size: 50px;
+
 }
 .people div:nth-child(odd){
     justify-self: center;
@@ -319,4 +326,17 @@ h3.right-content{
 }
 .privacy{
     background-image: url("logos/shield-lock-outline.svg");
+}
+
+#user-1{
+    background-image: url("logos/maciek-sulkowski-lightning.jpg");
+}
+#user-2{
+    background-image: url("logos/hossein-qs-moon.jpg");
+}
+#user-3{
+    background-image: url("logos/eric-dekker-mountain.jpg");
+}
+#user-4{
+    background-image: url("logos/sneha-chandrashekar-arches.jpg");
 }
