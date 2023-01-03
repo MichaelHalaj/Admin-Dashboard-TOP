@@ -27,24 +27,24 @@ h3{
     grid-row: 1 / 4;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 200px 200px;
+    grid-template-rows: 100px 300px 200px;
     gap: 16px;
     justify-items: start;
     font-size: 1.5em;
 }
 .links,
 .info{
-    display: grid;
-    grid-template-columns: 1fr;
-   /* grid-template-rows: repeat(6, 30px);*/
-}
-.info{
-    grid-template-rows: repeat(3, 30px);
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+   /* grid-template-columns: 1fr;*/
+    font-size: 1.3em;
+   /* grid-template-rows: repeat(6, 30px); */
 }
 .links div{
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 .header{
     grid-column: 1;
