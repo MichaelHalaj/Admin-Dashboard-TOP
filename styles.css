@@ -39,6 +39,7 @@ h3{
     flex-direction: column;
    /* grid-template-columns: 1fr;*/
     font-size: 1.3em;
+    gap: 8px;
    /* grid-template-rows: repeat(6, 30px); */
 }
 .info{
@@ -311,11 +312,11 @@ h3.right-content{
     background-image: url("logos/account-group-outline.svg");
 }
 .settings{
-
+    background-image: url("logos/cog-outline.svg");
 }
 .support{
-
+    background-image: url("logos/cloud-question-outline.svg");
 }
 .privacy{
-
+    background-image: url("logos/shield-lock-outline.svg");
 }
