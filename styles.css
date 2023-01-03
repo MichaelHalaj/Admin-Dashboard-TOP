@@ -118,6 +118,14 @@ input[type="text"]:focus-visible{
     padding: 12px 20px;
     color: white;
 }
+.post-buttons button:hover{
+    background-color: #caa511;
+    cursor: pointer;
+}
+.post-buttons button:active{
+    outline:none;
+    cursor: pointer;
+}
 .content{
     background-color: rgb(241, 241, 241);
     display: grid;
@@ -148,7 +156,7 @@ input[type="text"]:focus-visible{
 }
 .card .margin{
     height: 100%;
-    background-color: goldenrod;
+    background-color: #facc15;
     border-radius: 12px 0px 0px 12px;
 }
 h3{
