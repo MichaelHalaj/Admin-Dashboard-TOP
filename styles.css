@@ -48,10 +48,11 @@ h3{
     align-items: center;
 }
 input[type="text"]{
-    width: 400px;
+    width: 75%;
     height: 25px;
     border: 2px solid grey;
     border-radius: 8px;
+    background-color: rgb(218, 218, 218);
 }
 input[type="text"]:focus-visible{
     outline: 2px ridge rgba(40, 40, 40, .6);
@@ -80,12 +81,20 @@ input[type="text"]:focus-visible{
     box-shadow: 0px 5px 5px rgba(170, 170, 170, 0.4);
     position: relative;
 }
+.nav>div:nth-child(even){
+    justify-self: end;
+    margin-right: 100px;
+}
+.nav>div:nth-child(odd){
+    margin-left: 100px;
+}
 .top-right{
     grid-row: 1;
     grid-column: 2;
     display: flex;
     align-items: center;
     gap: 16px;
+    flex-wrap: wrap;
 }
 .top-right .profile-pic{
     height: 35px;
