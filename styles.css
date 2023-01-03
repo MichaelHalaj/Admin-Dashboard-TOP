@@ -49,8 +49,12 @@ h3{
 }
 input[type="text"]{
     width: 400px;
+    height: 25px;
     border: 2px solid grey;
-    border-radius: 12px;
+    border-radius: 8px;
+}
+input[type="text"]:focus-visible{
+    outline: 2px ridge rgba(40, 40, 40, .6);
 }
 
 .profile-pic{
