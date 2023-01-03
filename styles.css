@@ -40,6 +40,9 @@ h3{
     font-size: 1.3em;
    /* grid-template-rows: repeat(6, 30px); */
 }
+.info{
+    margin-top: 48px;
+}
 .links div{
     display: flex;
     align-items: center;
