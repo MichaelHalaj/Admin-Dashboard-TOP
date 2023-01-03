@@ -47,6 +47,12 @@ h3{
     justify-items: left;
     align-items: center;
 }
+input[type="text"]{
+    width: 400px;
+    border: 2px solid grey;
+    border-radius: 12px;
+}
+
 .profile-pic{
     border-radius: 50%;
     height: 50px;
@@ -97,6 +103,9 @@ h3{
     box-shadow: 5px 5px 5px rgba(170, 170, 170, 0.4);
     border-radius: 12px;
     background-color: white;
+}
+.projects .card{
+    height: 250px;
 }
 .card .margin{
     height: 100%;
