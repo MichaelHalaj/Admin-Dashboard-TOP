@@ -4,6 +4,7 @@
 body, html{
     height: 100%;
     margin: 0;
+    background-color: rgb(241, 241, 241);
 }
 
 h1{
@@ -50,18 +51,18 @@ h3{
 input[type="text"]{
     width: 75%;
     height: 25px;
-    border: 2px solid grey;
+    border: none;
     border-radius: 8px;
-    background-color: rgb(218, 218, 218);
+    background-color: rgb(238, 238, 238);
 }
 input[type="text"]:focus-visible{
-    outline: 2px ridge rgba(40, 40, 40, .6);
+    outline: 1px ridge rgba(97, 97, 97, 0.6);
 }
 
 .profile-pic{
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
+    min-height: 80px;
+    min-width: 80px;
     background-color: white;
     border: 2px solid grey;
 }
@@ -71,6 +72,8 @@ input[type="text"]:focus-visible{
 .search{
     grid-column: 1;
     grid-row: 1;
+    display: flex;
+    gap: 16px;
 }
 .nav{
     background-color: rgb(255, 255, 255);
@@ -97,13 +100,14 @@ input[type="text"]:focus-visible{
     flex-wrap: wrap;
 }
 .top-right .profile-pic{
-    height: 35px;
-    width: 35px;
+    min-height: 50px;
+    min-width: 50px;
 }
 .content{
     background-color: rgb(241, 241, 241);
     display: grid;
     grid-template-columns: 4fr 1fr;
+    height: 100%;
     gap: 0;
 }
 
