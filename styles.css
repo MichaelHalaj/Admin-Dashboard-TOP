@@ -49,6 +49,9 @@ h3{
     display: flex;
     align-items: center;
 }
+a{
+    color: black;
+}
 a:visited{
     color:black;
 }
@@ -80,7 +83,7 @@ input[type="text"]:focus-visible{
     border-radius: 50%;
     min-height: 80px;
     min-width: 80px;
-    background-size: 80px;
+    background-size: cover;
     background-image: url("logos/shana-van-beach.jpg");
     border: 2px solid grey;
     background-repeat: no-repeat;
@@ -245,7 +248,7 @@ h3.right-content{
     min-height: 50px;
     max-height: 50px;
     max-width: 50px;
-    background-size: 50px;
+    /*background-size: 50px;*/
 
 }
 .people div:nth-child(odd){
