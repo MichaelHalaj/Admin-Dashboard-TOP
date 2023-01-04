@@ -127,7 +127,7 @@ input[type="text"]:focus-visible{
 .top-right .profile-pic{
     min-height: 50px;
     min-width: 50px;
-    background-size: 50px;
+    background-size: cover;
 }
 .post-buttons{
     display: flex;
